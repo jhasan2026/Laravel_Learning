@@ -12,9 +12,9 @@
             </a>
         @endforeach
 
-        <dv>
-            {{ $jobs->links() }}
-        </dv>
+{{--        <dv>--}}
+{{--            {{ $jobs->links() }}--}}
+{{--        </dv>--}}
 
     </div>
 

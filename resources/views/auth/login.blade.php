@@ -13,7 +13,7 @@
                         <x-form-label for="email">Email</x-form-label>
 
                         <div class="mt-2">
-                            <x-form-input id="email"  name="email"  required />
+                            <x-form-input id="email"  name="email" :value="old('email')" required />
                             <x-form-error name="email" />
                         </div>
 
